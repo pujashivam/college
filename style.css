@@ -1,0 +1,135 @@
+body{
+    background:white;
+    margin:auto 0;
+    padding:0;
+}
+.top{
+    background:#B1544F;
+    padding:10px 0;
+    color:white;
+
+}
+.gpa{
+    background:#F2C38B;
+    padding:30px 0;
+}
+.gpa img{
+    width:110px;
+}
+.gpa h1{
+    color:#74353F;
+    text-align:center;
+}
+.gpa h4{
+    color:grey;
+    text-align:center;
+}
+#navbarSupportedContent ul li a{
+    font-family:arial;
+}
+.arrow{
+    background:white;
+}
+.arrow img{
+    margin:40px 45% 0px 45%;
+}
+.arrow h2{
+    text-align:center;
+    animation-name:jsr;
+    
+    animation-duration:2s;
+}
+@keyframes jsr{
+    0%{
+        letter-spacing:40px;
+    }
+    100%{
+        letter-spacing:0px;
+    }
+}
+.content{
+    background:white;
+    padding:0 0 10px 0;
+}
+.content img{
+    width:280px;
+}
+.content p{
+    font-family:arial;
+    font-size:15px;
+}
+.content h5{
+    font-weight:bold;
+}
+.images{
+    background:url('sat.webp');
+    padding:0 0 20px 0;
+    background-size:100% 100%;
+}
+.images .img1{
+    margin:40px 0 0px 45%;
+}
+.images h3{
+    text-align:center;
+}
+.images .box{
+    width:230px;
+    height:320px;
+    background:white;
+    margin-left:40px;
+    margin-bottom:20px;
+    float:left;
+    border:solid 2px #D1D9DD;
+}
+.images .box img{
+    margin:40px 30px 10px 30px;
+    transition:2s;
+}
+.images .box img:hover{
+    transform:rotate(360deg);
+}
+.images .line{
+    height:60px;
+    background:white;
+    padding:14px 40px;
+    font-size:20px;
+}
+.footer{
+    background:#303030;
+    padding:20px;
+    padding:50px;
+}
+.footer h5{
+    color:#E5C37D;;
+}
+.footer a:hover{
+    transform:translate(3px,0);
+}
+.footer a:visited,.footer a:link{
+    text-decoration:none;
+    color:#AA7957;
+    display:block;
+    font-family:geneva;
+    transition:0.2s;
+    font-weight:bold;
+}
+.footer ul li{
+    line-height:25px;
+}
+.footer h4{
+    color:white;
+    border-left:5px solid rgb(37, 146, 219);
+    padding-left:6px;
+    
+}
+.footer p,h6{
+    color:white;
+}
+.footer p{
+    color:#E5C37D;
+}
+.footer .footer1{
+    margin-top:20px;
+    border-top:0.8px solid white;
+    padding:15px;
+}
